@@ -12,6 +12,7 @@ Included:
 - High-level interaction model
 - End-to-end authorization flow (authorization code flow)
 - Typical use cases and reasoning
+
 Not included:
 - Protocol-level parameters and endpoint specifications
 - Token formats, encryption details, security configuration

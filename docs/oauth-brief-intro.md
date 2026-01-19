@@ -29,7 +29,8 @@ During the authentication and authorization process of OAuth, the following role
 ### High-Level Interaction Model
 Fig.1 illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.
 The detailed workflow can be found in the next chapter.
-!(assets/diagrams/OAuth Workflow.svg "OAuth Authorization Code Flow")
+
+![OAuth Workflow](assets/diagrams/OAuth Workflow.svg "OAuth Authorization Code Flow")
 
 ### End-to-End Authorization Flow
 1. Resource owner accesses the client application.

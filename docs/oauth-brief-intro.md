@@ -19,8 +19,8 @@ Throughout this document, a cloud photo printing scenario is used as a running e
 ## Overall Workflow of OAuth
 ### Roles in the OAuth Workflow
 During the authentication and authorization process of OAuth, the following roles are included:
-|         Role         |                                                                 Desription                                                                |              Example              |
-|:--------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------:|
+| Role                 | Desription                                                                                                                                | Example                           |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Resource Owner       | The entity that has the authority to delegateaccess to the client. Usually a human being.                                                 | The end user                      |
 | Client Application   | A piece of software that attempts to accessthe protected resource on behalf of theresource owner, and it uses OAuth to obtainthat access. | Photo printing service            |
 | Authorization Server | The server that authenticates the resourceowner and issues access tokens afterobtaining consent.                                          | Cloud drive authorization service |
@@ -30,7 +30,7 @@ During the authentication and authorization process of OAuth, the following role
 Fig.1 illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.
 The detailed workflow can be found in the next chapter.
 
-![OAuth Workflow](assets/diagrams/OAuth Workflow.svg "OAuth Authorization Code Flow")
+![OAuth Workflow Diagram](assets/diagrams/OAuth_Workflow.svg)
 
 ### End-to-End Authorization Flow
 1. Resource owner accesses the client application.

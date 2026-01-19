@@ -27,10 +27,11 @@ During the authentication and authorization process of OAuth, the following role
 | Resource Server      | The server that hosts protected resourcesand accepts access tokens to grant or denyaccess.                                                | Cloud drive photo storage         |
 
 ### High-Level Interaction Model
-Fig.1 illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.
+[OAuth Workflow Diagram](#oauth-workflow-diagram) illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.
 The detailed workflow can be found in the next chapter.
-
+<a id="oauth-workflow-diagram></a>
 ![OAuth Workflow Diagram](../assets/diagrams/OAuth_Workflow.svg)
+*Figure 1. OAuth Workflow Overview*
 
 ### End-to-End Authorization Flow
 1. Resource owner accesses the client application.

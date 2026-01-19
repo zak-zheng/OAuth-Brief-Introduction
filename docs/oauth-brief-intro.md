@@ -30,7 +30,8 @@ During the authentication and authorization process of OAuth, the following role
 [OAuth Workflow Diagram](#oauth-workflow-diagram) illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.
 The detailed workflow can be found in the next chapter.
 
-<a id="oauth-workflow-diagram></a>
+<a id="oauth-workflow-diagram"></a>
+
 ![OAuth Workflow Diagram](../assets/diagrams/OAuth_Workflow.svg)
 
 *Figure 1. OAuth Workflow Overview*

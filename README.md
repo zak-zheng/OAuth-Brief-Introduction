@@ -6,6 +6,9 @@ It is intended to help readers build a conceptual understanding of OAuth workflo
 - Technical Writers
 - Technical Support and Operation Engineers
 - Software developers
+## Content Overview
+- Main document: [Brief Introduction to OAuth](docs/oauth-brief-intro.md)
+- Original PDF version: [Brief Introduction to OAuth (Documentation Sample)](assets/Brief Introduction to OAuth (Documentation Sample).pdf)
 ## Scope and Limitations
 Included:
 - Core roles in OAuth workflows (resource owner, client, authorization server, and resource server)
@@ -18,3 +21,6 @@ Not included:
 - Token formats, encryption details, security configuration
 - Advanced extensions (refresh tokens, device flow)
 - OpenID Connect (OIDC)
+## How to Review
+Start with (docs/oauth-brief-intro.md)
+Issues and pull requests show incremental improvements and planned work.

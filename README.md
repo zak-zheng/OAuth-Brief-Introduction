@@ -23,4 +23,5 @@ Not included:
 - OpenID Connect (OIDC)
 ## How to Review
 Start with (docs/oauth-brief-intro.md)
+
 Issues and pull requests show incremental improvements and planned work.

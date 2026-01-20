@@ -8,7 +8,7 @@ It is intended to help readers build a conceptual understanding of OAuth workflo
 - Software developers
 ## Content Overview
 - Main document: [Brief Introduction to OAuth](docs/oauth-brief-intro.md)
-- Original PDF version: [Brief Introduction to OAuth (Documentation Sample)](assets/Brief Introduction to OAuth (Documentation Sample).pdf)
+- Original PDF version: [Brief Introduction to OAuth (Documentation Sample)](assets/Brief_Introduction_to_OAuth_Documentation_Sample.pdf)
 ## Scope and Limitations
 Included:
 - Core roles in OAuth workflows (resource owner, client, authorization server, and resource server)

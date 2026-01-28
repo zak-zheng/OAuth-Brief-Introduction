@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "useGitignore": true,
+  "ignorePaths": [
+    "**/*.svg",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.pdf",
+    "**/node_modules/**",
+    "**/.git/**"
+  ],
+  "words": [
+    "OAuth",
+    "OIDC",
+    "XMetaL",
+    "IXIASOFT",
+    "AuthZ",
+    "AuthN",
+    "Quickstart",
+    "Howto",
+    "workflow",
+    "workflows",
+    "token",
+    "tokens",
+    "Access Token",
+    "token",
+    ],
+  "enableFiletypes": ["md", "txt"]
+}

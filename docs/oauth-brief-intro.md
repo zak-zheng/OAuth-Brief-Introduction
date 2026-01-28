@@ -19,12 +19,12 @@ Throughout this document, a cloud photo printing scenario is used as a running e
 ## Overall Workflow of OAuth
 ### Roles in the OAuth Workflow
 During the authentication and authorization process of OAuth, the following roles are included:
-| Role                 | Desription                                                                                                                                | Example                           |
+| Role                 | Description                                                                                                                                | Example                           |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Resource Owner       | The entity that has the authority to delegateaccess to the client. Usually a human being.                                                 | The end user                      |
-| Client Application   | A piece of software that attempts to accessthe protected resource on behalf of theresource owner, and it uses OAuth to obtainthat access. | Photo printing service            |
-| Authorization Server | The server that authenticates the resourceowner and issues access tokens afterobtaining consent.                                          | Cloud drive authorization service |
-| Resource Server      | The server that hosts protected resourcesand accepts access tokens to grant or denyaccess.                                                | Cloud drive photo storage         |
+| Resource Owner       | The entity that has the authority to delegate access to the client. Usually a human being.                                                 | The end user                      |
+| Client Application   | A piece of software that attempts to access the protected resource on behalf of the resource owner, and it uses OAuth to obtain that access. | Photo printing service            |
+| Authorization Server | The server that authenticates the resource owner and issues access tokens after obtaining consent.                                          | Cloud drive authorization service |
+| Resource Server      | The server that hosts protected resources and accepts access tokens to grant or deny access.                                                | Cloud drive photo storage         |
 
 ### High-Level Interaction Model
 [OAuth Workflow Diagram](#oauth-workflow-diagram) illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.

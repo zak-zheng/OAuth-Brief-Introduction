@@ -1,0 +1,39 @@
+name: Docs quality checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  markdown_lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install -g markdownlint-cli
+      - run: markdownlint "**/*.md" --config .markdownlint.jsonc
+
+  spell_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install -g cspell
+      - run: cspell "**/*.{md,txt}" --config cspell.json
+
+  link_check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v1
+        with:
+          args: >
+            --verbose --no-progress --max-retries 2 --timeout 20
+            --include-fragments .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

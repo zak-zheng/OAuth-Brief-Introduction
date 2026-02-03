@@ -33,8 +33,6 @@ During the authentication and authorization process of OAuth, the following role
 | Authorization Server | The server that authenticates the resource owner and issues access tokens after consent.        | Cloud drive authorization service |
 | Resource Server      | The server that hosts protected resources and validates access tokens for allow/deny decisions. | Cloud drive photo storage         |
 
-
-
 ### High-Level Interaction Model
 
 [OAuth Workflow Diagram](#oauth-workflow-diagram) illustrates the high-level interaction model of the OAuth authorization code flow, using a photo printing service as an example.

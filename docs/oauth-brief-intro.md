@@ -25,8 +25,8 @@ Throughout this document, a cloud photo printing scenario is used as a running e
 ### Roles in the OAuth Workflow
 
 During the authentication and authorization process of OAuth, the following roles are included:
-| Role                 | Description                                                                                                                                | Example                           |
 
+| Role                 | Description                                                                                                                                | Example                           |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Resource Owner       | The entity that has the authority to delegate access to the client. Usually a human being.                                                 | The end user                      |
 | Client Application   | A piece of software that attempts to access the protected resource on behalf of the resource owner, and it uses OAuth to obtain that access. | Photo printing service            |

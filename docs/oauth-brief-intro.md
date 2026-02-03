@@ -40,7 +40,7 @@ The detailed workflow can be found in the next chapter.
 
 <a id="oauth-workflow-diagram"></a>
 
-![OAuth Workflow Diagram](..docs/assets/diagrams/OAuth_Workflow.svg)
+![OAuth Workflow Diagram](../docs/assets/diagrams/OAuth_Workflow.svg)
 
 Figure 1. OAuth Workflow Overview
 

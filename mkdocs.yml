@@ -1,0 +1,11 @@
+site_name: OAuth Documentation Sample
+site_description: Brief Introduction to OAuth (Documentation Sample)
+repo_url: https://github.com/zak-zheng/OAuth-Brief-Introduction
+repo_name: OAuth-Brief-Introduction
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Brief Introduction to OAuth: oauth-brief-intro.md
